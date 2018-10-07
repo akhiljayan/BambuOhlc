@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-3 pull-left" style="background-color: #cae9d3;  padding:0px">
+        <ul class="nav flex-column">
+            <li class="nav-item" ng-repeat="symbol in vm.symbols">
+                <a class="nav-link" ng-class="{'active': vm.selected == symbol.key}" href="#" ng-click="vm.getData(symbol.key)">{{symbol.display}}</a>
+                <hr/>
+            </li>
+        </ul>
+    </div>
+    <div class="col-9 pull-right">
+         <pre>{{vm.data}}</pre>
+         <show-chart data="vm.data"></show-chart>
+    </div>
+</div>

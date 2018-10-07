@@ -1,0 +1,26 @@
+{
+  "name": "bambu_ohlc",
+  "version": "1.0.0",
+  "description": "BAMBU Frontend Engineer Test",
+  "main": "index.js",
+  "repository": "https://github.com/akhiljayan/BambuOhlc.git",
+  "author": "Akhil Jayan",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-ui-router": "^1.0.18",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "angular-cookies":"^1.7.5",
+    "angular-nvd3":"^1.0.9",
+    "sweetalert": "^2.1.0",
+    "moment":"2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "run-sequence": "^2.2.1"
+  }
+}
